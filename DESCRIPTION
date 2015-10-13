@@ -1,0 +1,7 @@
+Package: pieter
+Title: Personal R functions
+Version: 0.1
+Description: Personal R functions
+Depends: R (>= 3.2.1), ggplot2, plyr, maps
+License: MIT
+LazyData: true

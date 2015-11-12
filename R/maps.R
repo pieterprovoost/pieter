@@ -1,5 +1,5 @@
 worldmap <- function() {
-  world <- map_data(map="world")
+  world <- map_data(map="worldHires")
   ggplot(world, aes(long, lat)) +
     geom_polygon(aes(group=group), fill="gray90", color="gray90") +
     labs(x="", y="") +
